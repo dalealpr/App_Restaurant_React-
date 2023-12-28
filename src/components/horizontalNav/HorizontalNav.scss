@@ -1,0 +1,40 @@
+.contNav{
+    height: 60px;
+    padding-left: 20px;
+
+    
+    .navLi{
+        flex-shrink: 0;
+        
+        .navLink{
+            height: 33px;
+            padding: 5px 12px;
+            font-weight: 500;
+            color: white;
+            border-radius: 25px;
+            border:  1px solid white;
+            cursor: pointer;
+            
+            display: flex;
+            align-items: center;
+        }
+
+        .active {
+            height: 33px;
+            padding: 5px 12px;
+            font-weight: 500;
+            color: var(--color-secondary);
+            background-color: var(--color-background-secondary);
+            border-radius: 25px;
+            cursor: pointer;
+            border:none;
+    
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+::-webkit-scrollbar{
+    display: none
+    }

@@ -1,0 +1,23 @@
+.headerCont{
+    border-bottom: 1px solid #ffffff85;
+
+.headerImgCont{
+    background-image: url('../../assets/img/restaurante.jpg'); /* Reemplaza 'tu-imagen.jpg' con el nombre de tu archivo de imagen en la carpeta assets */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 220px;
+    box-shadow: inset 0px -40px 50px -30px rgba(20, 20, 20, 0.433);
+
+}
+
+.restaurantCont{
+    padding: 0 30px;
+    margin: 17px 0;
+
+    .titleRestaurant{
+        font-size: 29px;
+        font-weight: 700;
+    }
+}
+}
